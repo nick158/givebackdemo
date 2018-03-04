@@ -1,0 +1,63 @@
+body {
+    color: white;
+    font-family: sans-serif;
+    background-color: #C51162;
+}
+
+h1 {
+    font-size: 185%;
+    margin-top: 0;
+}
+
+
+input::placeholder {
+    color:white;
+}
+
+.panel {
+    background: #FF4081;
+    border-style: none;
+    box-shadow: 1px 2px 3px #940D49;
+    
+}
+
+.panel .col-xs-3 {
+    padding: 0;    
+}
+
+.panel p {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+.form-control {
+    border-style: none;
+    
+}
+
+.logo {
+    margin-top: 4%;
+    margin-left: 5%;
+    padding: 0;
+    margin-bottom: 3%
+}
+.panel .small-font{
+    font-size: 14px;
+}
+.large-form{
+    height: 200px;
+}
+.emoji-large{
+    font-size: 24px;
+}
+.fadeout{
+    opacity: 70%;
+}
+
+.activated{
+    background-color: #8064A2;
+    transition: 0.3s;
+}
+.activated:hover, .emojiButton:hover, .emojiButton:focus{
+    background-color: #8064A2;
+}

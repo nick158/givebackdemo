@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GiveBack Dashboard</title>
+    <meta name="description" content="An interactive getting started guide for Brackets.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container logo">
+        <div class="row">
+            <div class="col-xs-4">
+                <img src="circlepic3.png" class="img-responsive" alt="GiveBack">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Share your feedback!</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--Panel-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel panel-default" style="border-style: none">
+                    <div class="panel-body">
+
+                        <div class="col-xs-9">
+
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-4 control-label">How would you rate your experience today?</label>
+                                    <div class="col-sm-8">
+                                        <input class="btn btn-default emoji-large emojiButton" type="button" value="😃">
+                                        <input class="btn btn-default emoji-large emojiButton" type="button" value="😢">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-4 control-label">Any thoughts you want to share?</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control large-form" id="inputEmail3" placeholder="Share the vibes">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-offset-4 col-sm-10">
+                                       <a href="index2.html" class="btn btn-default">We appreciate it!</a>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                var lastButton;
+                var currentButton;
+            $('.emojiButton').on('click', function() {
+                $(this).addClass('activated');
+                console.log('testing')
+            });
+});
+
+
+        </script>
