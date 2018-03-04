@@ -61,3 +61,6 @@ input::placeholder {
 .activated:hover, .emojiButton:hover, .emojiButton:focus{
     background-color: #8064A2;
 }
+.logo-size{
+    height: 80px;
+}
